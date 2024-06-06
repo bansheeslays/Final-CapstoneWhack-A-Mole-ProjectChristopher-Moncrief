@@ -6,9 +6,9 @@ const score = document.querySelector('#score'); // Use querySelector() to get th
 const timerDisplay = document.querySelector('#timerDisplay'); // use querySelector() to get the timer element.
 
 // Audio Variables 
-const audioHit = new Audio('../assets/hit.mp3');
-const audioGrunt = new Audio('../assets/zombie-grunt.mp3');
-const song = new Audio('../assets/zombie-song.mp3');
+const audioHit = new Audio('https://bansheeslays.github.io/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/assets/hit.mp3');
+const audioGrunt = new Audio('https://bansheeslays.github.io/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/assets/zombie-grunt.mp3');
+const song = new Audio('https://bansheeslays.github.io/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/assets/zombie-song.mp3');
 
 let time = 0;
 let timer;

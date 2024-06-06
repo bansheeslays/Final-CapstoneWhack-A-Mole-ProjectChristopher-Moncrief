@@ -1,5 +1,6 @@
 html {
-   background-image: url('../assets/night-background.png');
+   background-image: url('https://github.com/bansheeslays/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/tree/main/assets/night-background.png');
+  background-image: url('../assets/night-background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,6 +48,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  cursor: url('https://github.com/bansheeslays/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/tree/main/assets/mallet.png'), pointer;
   cursor: url('../assets/mallet.png'), pointer;
 }
 
@@ -58,7 +60,8 @@ h3 {
 
 .hole:after {
   display: block;
-  background: url("../assets/gravestone.png") bottom center no-repeat;*/
+  background: url("https://github.com/bansheeslays/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/tree/main/assets/gravestone.png") bottom center no-repeat;
+  background: url("../assets/gravestone.png") bottom center no-repeat;
   background-size:contain;
   content:'';
   width: 100%;
@@ -70,6 +73,7 @@ h3 {
 }
 
 .mole {
+  background:url('https://github.com/bansheeslays/Final-CapstoneWhack-A-Mole-ProjectChristopher-Moncrief/tree/main/assets/zombie.png') bottom center no-repeat;
   background:url('../assets/zombie.png') bottom center no-repeat;
   background-size: 60%; /* Increased size */
   position: absolute;
